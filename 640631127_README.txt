@@ -1,0 +1,49 @@
+Submitted by
+WEERINPHAS CHIMNAM 
+Student ID 640631127
+Master's degree student, Chiang Mai University
+Date October 1, 2021
+
+Present to
+Dr. PREE THIENGBURANATHUM
+
+Objective
+Our task is to impliment the KNN model without using libraries which classifies the new species based on the sepal and petal measurements.
+
+Dataset
+Iris dataset is available in scikit-learn.
+There are 150 observations with four input consists of sepal length, sepal width, petal length, and petal width variables and one output variable is a class label for each instance.
+
+Setup
+In order to create a program that predicts the class of iris dataset , we need to use some very useful python packages. You will need to install the following packages:
+1. Pandas
+2. Numpy
+3. Sklearn
+4. Statistics
+If you do not already have some of these packages you can install them through pip install PACKAGE.
+
+Description
+Our program will start by importing required packages and we have created the KNN function for impliment any data which is broken down into 3 parts as Calculate Euclidean Distance,
+, Get Nearest Neighbors and Make Predictions functions. Then we test the program with Iris dataset as following steps: 1) Importing the Libraries 2) Loading the Iris-Flower dataset
+3) Split data into training and testing 4) Training and Predicting from KNN classifier we created before and finally 5) Compare classification performance with/without using sklearn
+
+Example of program input:
+There are four inputs as follow:
+Sepal length in cm.
+Sepal width in cm.
+Petal length in cm.
+Petal width in cm.
+
+Example Data=[4.5, 2.3, 1.3, 0.3]
+
+Example of program output:
+There are one input is a Class as y_hat which shown in dummy variables as follows:
+[Iris-virginica] => 0
+[Iris-setosa] => 1
+[Iris-versicolor] => 2
+Data=[4.5, 2.3, 1.3, 0.3], Predicted: 1
+[Iris-virginica] => 0
+[Iris-setosa] => 1
+[Iris-versicolor] => 2
+
+Example Predicted: 1.0 => [Iris-setosa]
